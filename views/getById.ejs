@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <title>Ecommerce website by Ndifreke|<%= title %></title>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="container-fluid">
+      <div class="col text-center py-3">
+        <h1><%= data.name%></h1>
+      </div>
+      <div class="row g-6">
+        <div class="col-6 offset-3 border-secondary shadow py-3 px-5 rounded">
+          <form class="form_container" method="get" action="/users/update/<%=data.id%>" enctype="application/x-www-form-urlencoded">
+
+            <div class="card text-center">
+                <div class="card-header">
+                  Administrative Panel
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Id: <%= data.id%></h5>
+                  <h5 class="card-title">Image: <%= data.image%></h5>
+                  <p class="card-text">Brand: <%= data.brand%></p>
+                  <p class="card-text">Category: <%= data.category%></p>
+                  <p class="card-text">Description: <%= data.description%></p>
+                  <p class="card-text">Price: <%= data.price%></p>
+                  <p class="card-text">countInStock: <%= data.countInStock%></p>
+                  <p class="card-text">rating: <%= data.rating%></p>
+                  <p class="card-text">numReviews: <%= data.numReviews%></p>
+                  <div class="form-group mb-3">
+                    <div class="text-center">
+                      <input type="submit" class="btn btn-primary" id="submit" value="Update" >
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer text-muted">
+                  Administrator: <%=user%>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+  </div>
+    
+ 
+ 
+
+
+
+  <%- include('./partials/footer.ejs') %>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+   {
+      "id": "537be4ab-f4af-4532-9f40-18c1b46eaebe",
+      "fullname": "Ndy Etuk",
+      "email": "frekeb@gmail.com",
+      "password": "$2a$10$gyBtARMbhK6ZDUVHZcdc/esueU1qnEwzX.NcfKe9s6IWjt3SdqHHm",
+      "gender": "female",
+      "phone": "98077655554",
+      "address": "12, Edo teck pack"
+   },
+   {
+      "id": "67e885a7-735b-41fb-a2cf-7084c9042e68",
+      "fullname": "Benny Bassey",
+      "email": "BennyBass@gmail.com",
+      "password": "$2a$10$tyB7YKWOlKx3bFVUN8iaieT5po6pkqkE41VJVDa8yuY5wcRj1wSD2",
+      "gender": "male",
+      "phone": "07023425678",
+      "address": "Uselu, Benin"
+   },
+   {
+      "id": "2a279c7c-a6d2-418e-99b0-43954a6b52b2",
+      "fullname": "Ndifreke Etukudo",
+      "email": "etukfrekeb@gmail.com",
+      "password": "$2a$10$eOI/p.fKTSGxTnYSBCq68.0Sxauy4kSZ.2uNzdlTMpJBmj50ZP6r2",
+      "gender": "male",
+      "phone": "08107602449",
+      "address": "29, mukoya, Apapa"
+   },
+   {
+      "id": "c28eb212-2240-438f-81ce-b9db8124dc6b",
+      "fullname": "Jane Doe",
+      "email": "janeDoe@example.com",
+      "password": "$2a$10$7ilrHDmvpQf6uCGFuCtMZ.Ti2LzoCy/vr.xhyu1psINoMMo/ILzXW",
+      "gender": "female",
+      "phone": "09823454556",
+      "address": "hilltown house 28"
+   },
+   {
+      "id": "f0b6ba35-b35b-475c-8b2a-5818eb29f5c7",
+      "fullname": "Freke Bass",
+      "email": "freke@example.com",
+      "password": "$2a$10$F0sZ2L0VSksZWI2.Yag4MuG7fA9gXhMXWkpcaU4fnErNQ4UIvbdJS",
+      "gender": "female",
+      "phone": "09876543",
+      "address": "lagos"
+   },
+   {
+      "id": "e23c1737-ae0d-4037-a2cc-82d1b11f2dc4",
+      "fullname": "Benita Melvin",
+      "email": "benmel@example.com",
+      "password": "$2a$10$3cw8sLjRW.U8duqGt6fUUurRVbEvrJARVDDrAI/GWUy1hu8bDN3Eu",
+      "gender": "female",
+      "phone": "09867555322",
+      "address": "Ring road Benin"
+   },
+   {
+      "id": "b43acb15-8c03-48bc-a3bc-20f0096256f1",
+      "fullname": "Henshaw",
+      "email": "Henshaw@example.com",
+      "password": "$2a$10$UdOkF5yVeBO0FSW3vd.6NOwJtrCKXXJuj9dEmh9kldMUchKaBIvRK",
+      "gender": "male",
+      "phone": "123456748",
+      "address": "Lagos"
+   },
+   {
+      "id": "464cbe8e-4617-4b25-aea8-fd49cfbe6560",
+      "fullname": "seyi",
+      "email": "seyi@example.com",
+      "password": "$2a$10$3POwIktKVae5nfnHxv0Wu.khKXnSTCdksMez6qvSIixWruqwRHr.m",
+      "gender": "female",
+      "phone": "1234556788",
+      "address": "benin"
+   }
+]

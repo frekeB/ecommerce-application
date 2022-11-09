@@ -1,0 +1,62 @@
+[
+   {
+      "id": 1,
+      "name": "Jane Doe",
+      "brand": "Gucci",
+      "category": "Clothing",
+      "description": "Classic gucci sneeakers",
+      "price": "$130",
+      "countInStock": "7",
+      "rating": "5",
+      "numReviews": "13",
+      "image": "https://t4.ftcdn.net/jpg/05/06/36/71/240_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Freke",
+      "brand": "Christain Doir",
+      "category": "Clothing",
+      "description": "Elegant bag to fit all wears",
+      "price": "$70",
+      "countInStock": "5",
+      "rating": "5",
+      "numReviews": "10",
+      "image": "https://img.freepik.com/free-photo/handbag_1203-8312.jpg?size=338&ext=jpg&ga=GA1.2.1751569550.1667393114&semt=ais"
+   },
+   {
+      "id": 3,
+      "name": "Benny Bassey",
+      "brand": "MacBook",
+      "category": "tech Gadget",
+      "description": "Mac book Pro core i7, 15\" FHD ",
+      "price": "$800",
+      "countInStock": "2",
+      "rating": "5",
+      "numReviews": "5",
+      "image": "https://img.freepik.com/free-psd/laptop-psd-mockup-with-gradient-led-light_53876-138283.jpg?size=626&ext=jpg&ga=GA1.2.1751569550.1667393114&semt=sph"
+   },
+   {
+      "id": 4,
+      "name": "Ndy Etuk",
+      "image": "https://t4.ftcdn.net/jpg/05/06/36/71/240_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
+      "brand": "",
+      "category": "",
+      "description": "",
+      "price": "",
+      "countInStock": "",
+      "rating": "",
+      "numReviews": ""
+   },
+   {
+      "id": 5,
+      "name": "Smart photo",
+      "image": "https://img.freepik.com/premium-vector/samsung-galaxy-s20-vector-white-screen-front-back_558169-69.jpg?size=626&ext=jpg&ga=GA1.2.1751569550.1667393114&semt=sph",
+      "brand": "Samsung S1 ",
+      "category": "tech Gadget",
+      "description": "Samsung phone ",
+      "price": "$65",
+      "countInStock": "20",
+      "rating": "4.3",
+      "numReviews": "12"
+   }
+]

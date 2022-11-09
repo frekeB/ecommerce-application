@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <title> Ecommerce website by Ndifreke| <%= title %></title>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="container-fluid">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Category</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">countInStock</th>
+                <th scope="col">rating</th>
+                <th scope="col">numReviews</th>
+              </tr>
+            </thead>
+            <tbody>
+            <% if (data){ %>
+                <% for(let i = 0; i < data.length; i++){%>
+                    <tr>
+                        <th scope="row"><%= data[i].id %></th>
+                        <td><%= data[i].name %></td>
+                        <td> <img class="imageEdit" src=<%= data[i].image %> /></td>
+                        <td><%= data[i].brand %></td>
+                        <td><%= data[i].category %></td>
+                        <td><%= data[i].description %></td>
+                        <td><%= data[i].price %></td>
+                        <td><%= data[i].countInStock %></td>
+                        <td><%= data[i].rating %></td>
+                        <td><%= data[i].numReviews %></td>
+                        <td><a  href="/users/products/delete/<%= data[i].id %>"> Delete </a></td>
+                        <td><a  href="/users/update/<%= data[i].id %>"> Update </a></td>
+                        <td><a  href="/users/<%= data[i].id %>"> Select </a></td>
+                    </tr>
+                <% } %>
+            <% } %>
+            </tbody>
+          </table>
+          <div>
+            <a class="btn btn-outline-primary" href="/users/add">Add Product</a>
+            <a class="btn btn-outline-secondary" href="/users/update">Update Product</a>
+          </div>
+
+  </div>
+
+
+  <%- include('./partials/footer.ejs') %>
+</body>
+</html>
+
+
+
+
+

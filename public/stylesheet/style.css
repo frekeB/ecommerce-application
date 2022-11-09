@@ -1,0 +1,35 @@
+body {
+    border-radius: 0%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  /* #imageEdit {
+    position: relative;
+    width: 25%;
+    height: 15%;
+    background: #000;
+    filter: alpha(opacity=80);
+  margin-left: 190px;
+  /* margin-right: 10px; */
+  /* } */ 
+  .imageEdit {
+    position: relative;
+    width: 25%;
+    height: 15%;
+    background: #000;
+    filter: alpha(opacity=80);
+  margin-left: 190px;
+  /* margin-right: 10px; */
+  }
+  thead {
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(6, 1, 1);
+    color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  scope {
+    text-align: center;
+    padding: 40px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+  }

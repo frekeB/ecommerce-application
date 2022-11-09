@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <title>Ecommerce website by Ndifreke|<%= title %></title>
+<body>
+  <%- include('./partials/navbar.ejs') %>
+  <div class="container-fluid">
+      <div class="col text-center py-3">
+        <h1>Register</h1>
+      </div>
+      <div class="row g-6">
+        <div class="col-6 offset-3 border-secondary shadow py-3 px-5 rounded">
+          <form class="form_container" method="post" action="/users/register" enctype="application/x-www-form-urlencoded">
+            <div class="form-group mb-1">
+              <label for="name" class="form-label"></label>
+              <div class="">
+                <input type="name" class="form-control" id="name" placeholder="Full name" name="name">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="colFormLabel" class="form-label"></label>
+              <div class="">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="Email" name="email">
+              </div>
+            </div>
+            <div class=" form-group mb-1">
+              <label for="password" class="form-label"></label>
+              <div class="">
+                <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+              <label for="confirm_password" class="form-label"></label>
+              <div class="">
+                <input type="confirmPassword" class="form-control" id="repeat_password" placeholder="Confirm Password" name="confirmPassword">
+              </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="gender" class="form-label"></label>
+                <div class="">
+                  <input type="gender" class="form-control" id="gender" placeholder="Gender" name="gender">
+                </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="phone" class="form-label"></label>
+                <div class="">
+                  <input type="phone" class="form-control" id="phone" placeholder="Phone" name="phone">
+                </div>
+            </div>
+            <div class="form-group mb-1">
+                <label for="address" class="form-label"></label>
+                <div class="">
+                  <input type="address" class="form-control" id="address" placeholder="address" name="address">
+                </div>
+            </div>
+            <div class="form-group mb-3">
+              <div class="text-center">
+                <input type="submit" class="btn btn-primary" id="submit" value="Sign up" >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+    
+
+ 
+
+
+
+  <%- include('./partials/footer.ejs') %>
+</body>
+</html>
