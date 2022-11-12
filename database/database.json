@@ -12,18 +12,6 @@
       "image": "https://t4.ftcdn.net/jpg/05/06/36/71/240_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg"
    },
    {
-      "id": 2,
-      "name": "Freke",
-      "brand": "Christain Doir",
-      "category": "Clothing",
-      "description": "Elegant bag to fit all wears",
-      "price": "$70",
-      "countInStock": "5",
-      "rating": "5",
-      "numReviews": "10",
-      "image": "https://img.freepik.com/free-photo/handbag_1203-8312.jpg?size=338&ext=jpg&ga=GA1.2.1751569550.1667393114&semt=ais"
-   },
-   {
       "id": 3,
       "name": "Benny Bassey",
       "brand": "MacBook",
