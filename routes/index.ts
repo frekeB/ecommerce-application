@@ -9,7 +9,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req: Request, res: Response, next: NextFunction) {
-  const token = req.cookies.token;
+  const token = req.cookies.token; 
   console.log(token)
   const user = req.cookies.user;
 res.status(200).render('index', { title: 'Home', token, user: user?.fullname, });
